@@ -1,0 +1,7 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>{{ title }}</h1>
+    <p>{{ data }}</p>
+    <a href="{{ path('admin_home', { slug: 'testslug' }) }}">back to home</a>
+{% endblock %}
